@@ -123,10 +123,8 @@ async def not_joined(client: Client, message: Message):
     buttons = [
         [
 [(InlineKeyboardButton(text="⚡️ JOIN ☜Click ⚡️", url = f"{client.invitelink}")],
-    [InlineKeyboardButton(text="⚡️ JOIN 2 ☜Click ⚡️", url="https://t.me/SPYxFAMILY_season_2_dual'')]
-    
- 
-             
+[InlineKeyboardButton(text="⚡️ JOIN 2 ☜Click ⚡️", url="https://t.me/SPYxFAMILY_season_2_dual")]
+   
         ]
     ]
     try:
